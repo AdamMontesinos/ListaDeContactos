@@ -1,0 +1,106 @@
+@font-face {
+    font-family: fuente;
+    src: url(fonts/KGPrimaryItalics.ttf);
+}
+
+@font-face {
+    font-family: titulo;
+    src: url(fonts/Starborn.ttf);
+}
+
+.buscador{
+    margin-top: 30px;
+    margin-left:20px ;
+    margin-bottom:30px ;
+}
+
+#lupa {
+    background-image: url("imagenes/lupa.png");
+    background-repeat: no-repeat;
+    background-position: 90%;
+    background-size:8%;
+    opacity: 0.5;
+}
+
+input{
+    margin-left: 20px;
+    border: none;
+    background-color:beige;
+    border-radius: 20px;
+    padding: 15px;
+    padding-right: 80px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.title{
+    font-family: titulo;
+    font-size:x-large;
+}
+
+table,td,th{
+    padding: 10px;
+    border: 1px solid;
+    border-color:black;
+    border-collapse: collapse;
+    border: none;
+    text-align: center;
+    font-size:x-large;
+    font-family: fuente;
+}
+
+table{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tr:nth-child(even){
+    background-color:rgba(219, 245, 236, 0.925);
+}
+
+button{
+    margin:10px;
+    padding: 10px;
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2), 0 6px 10px 0 rgba(0,0,0,0.19);
+    background-color:rgba(219, 245, 236, 0.925);
+    border-radius: 20px;
+    border: none;
+}
+
+#buttonadd{
+    background-color:mediumspringgreen;
+}
+
+#buttonadd:hover{
+    background-color:rgb(5, 216, 135);
+}
+
+#buttonmod{
+    background-color:rgb(255, 255, 112);
+}
+
+#buttonmod:hover{
+    background-color:rgb(211, 211, 98);;   
+}
+
+#buttondelete{
+    background-color:  rgb(255, 112, 112);
+}
+
+#buttondelete:hover{
+    background-color: rgb(202, 108, 108);
+}
+
+footer{
+    background-color: white;
+    margin-top: 10px;
+    bottom: 0%;
+    width: 99%;
+    height: 10%;  
+}
+
+p{
+    font-family: fuente;
+    text-align: left;
+    padding: 0.5%;
+}
